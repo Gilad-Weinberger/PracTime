@@ -1,0 +1,41 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'css/components/navbar.css' %}" />
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="{% static 'images/logo.png' %}" alt="" class="logo" />
+      <div class="search-ar">
+        <input type="text" class="search" placeholder="Search here..." />
+        <button class="submit">
+          <i class="fa-regular fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <div class="right">
+        <div class="news-ar">
+          <div class="messages">
+            <i class="fa-regular fa-messages"></i>
+            <div class="messages-dot"><p class="count">2</p></div>
+          </div>
+          <div class="notifications">
+            <i class="fa-regular fa-bell"></i>
+            <div class="notifications-dot"><p class="count">5</p></div>
+          </div>
+        </div>
+        <div class="profile-ar">
+          <p class="name">Gilad Mansbach</p>
+          <img
+            src="{% static 'images/profile-image.png' %}"
+            alt=""
+            class="profile-image"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
