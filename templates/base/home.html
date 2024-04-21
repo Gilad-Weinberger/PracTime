@@ -1,9 +1,12 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PracTime</title>
+    <link rel="stylesheet" href="{% static 'css/base/home.css' %}" />
     <meta http-equiv="refresh" content="1" />
     <link
       rel="stylesheet"
@@ -34,5 +37,9 @@
   </head>
   <body>
     {% include '../components/navbar.html' %}
+    <div class="container">
+      {% include '../components/sidebar.html' %}
+      <div class="main"></div>
+    </div>
   </body>
 </html>

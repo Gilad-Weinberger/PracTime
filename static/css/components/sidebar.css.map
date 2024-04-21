@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"sidebar.css"}
+{"version":3,"sources":["sidebar.scss","sidebar.css"],"names":[],"mappings":"AAAQ,2GAAA;AACA,4EAAA;AAER;EACE,WAAA;ACAF;;ADEA;EACE,oBAAA;EACA,aAAA;EACA,sBAAA;EACA,iBAAA;EACA,gBAAA;ACCF;ADAE;EACE,YAAA;EACA,qBAAA;EACA,mBAAA;EACA,aAAA;EACA,YAAA;EACA,kBAAA;ACEJ;ADDI;EACE,eAAA;EACA,kBAAA;EACA,cAAA;ACGN;ADDI;EACE,yBAAA;ACGN;ADFM;EACE,YAAA;ACIR","file":"sidebar.css"}
