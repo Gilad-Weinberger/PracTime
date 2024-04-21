@@ -1,2 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");/*# sourceMappingURL=home.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+body {
+  margin: 0px;
+}
+
+.container {
+  height: calc(100vh - 68.4px);
+  display: flex;
+}
+.container .main {
+  font-family: "Rubik";
+  padding: 25px 18px 0px 18px;
+  width: calc(100vw - 240px);
+  background-color: #f6f7f9;
+}
+.container .main .hello {
+  font-weight: 500;
+  margin: 0px;
+}
+.container .main .mini-bar {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .main .mini-bar .mini-bar-item {
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  width: calc((100% - 60px) / 6);
+}
+.container .main .mini-bar .mini-bar-item i {
+  font-size: 50px;
+  color: blue;
+  margin-right: 15px;
+}
+.container .main .mini-bar .mini-bar-item .right .name {
+  margin: 0px 0px 8px 0px;
+  font-size: 15px;
+}
+.container .main .mini-bar .mini-bar-item .right .count {
+  margin: 0px;
+  font-size: 22px;
+  font-weight: 500;
+}/*# sourceMappingURL=home.css.map */

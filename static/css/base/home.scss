@@ -1,2 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+
+// Variables:
+$navbar-height: 68.4px;
+$sidebar-width: 240px;
+$main-padding-top: 25px;
+$main-padding-left: 18px;
+
+body {
+  margin: 0px;
+}
+.container {
+  height: calc(100vh - $navbar-height);
+  display: flex;
+  .main {
+    font-family: "Rubik";
+    padding: $main-padding-top $main-padding-left 0px $main-padding-left;
+    width: calc(100vw - $sidebar-width);
+    background-color: #f6f7f9;
+    .hello {
+      font-weight: 500;
+      margin: 0px;
+    }
+    .mini-bar {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .mini-bar-item {
+        background-color: white;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        width: calc((100% - 60px) / 6);
+        i {
+          font-size: 50px;
+          color: blue;
+          margin-right: 15px;
+        }
+        .right {
+          .name {
+            margin: 0px 0px 8px 0px;
+            font-size: 15px;
+          }
+          .count {
+            margin: 0px;
+            font-size: 22px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
