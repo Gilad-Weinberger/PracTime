@@ -44,4 +44,9 @@ body {
   margin: 0px;
   font-size: 22px;
   font-weight: 500;
+}
+.container .main .bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=home.css.map */

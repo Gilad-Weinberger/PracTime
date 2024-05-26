@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PracTime</title>
     <link rel="stylesheet" href="{% static 'css/base/home.css' %}" />
-    <meta http-equiv="refresh" content="100" />
+    <meta http-equiv="refresh" content="1" />
     <link
       rel="stylesheet"
       data-purpose="Layout StyleSheet"
@@ -78,8 +78,14 @@
             </div>
           </div>
         </div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+        <div class="bar">
+          {% include './home/calendar.html' %}
+          {% include './home/previous_records.html' %}
+        </div>
+        <div class="bar">
+          {% include './home/exam_result.html' %}
+          {% include './home/assignments.html' %}
+        </div>
       </div>
     </div>
   </body>
