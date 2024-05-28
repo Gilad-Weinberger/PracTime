@@ -49,7 +49,7 @@ class User(AbstractBaseUser, PermissionsMixin):
         help_text=_('Designates whether this user should be treated as active. Unselect this instead of deleting accounts.'),
     )
 
-    groups = models.ManyToManyField(
+    user_groups = models.ManyToManyField(
         Group,
         verbose_name=_('groups'),
         blank=True,
